@@ -68,8 +68,8 @@ class DetailNotePage extends StatelessWidget {
                         Navigator.pop(context);
                         Navigator.pop(context, {
                           "action": "deleted",
-                          "index": index,
-                        });
+                           "id": note.id}
+                        );
                       },
                       child: const Text("Supprimer"),
                     ),
