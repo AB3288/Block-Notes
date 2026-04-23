@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/note.dart';
 
 class CreateNotePage extends StatefulWidget {
-  final Note? note; 
+  final Note? note;
   const CreateNotePage({super.key, this.note});
 
   @override
